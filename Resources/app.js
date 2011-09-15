@@ -8,7 +8,7 @@ var bgmSnd;
 (function main(){
 	Ti.UI.iPhone.hideStatusBar();
 	
-    Ti.Media.defaultAudioSessionMode = Ti.Media.AUDIO_SESSION_MODE_AMBIENT;
+    Ti.Media.defaultAudioSessionMode = Ti.MediaAUDIO_SESSION_MODE_AMBIENT;
     clickSnd = _crateSound("click.wav", 0.1);
     bgmSnd = _crateSound("bgm2.wav", 0.1);
 
