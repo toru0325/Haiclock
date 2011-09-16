@@ -5,7 +5,7 @@
         <target device="iphone">true</target>
         <target device="ipad">true</target>
         <target device="blackberry">false</target>
-        <target device="android">true</target>
+        <target device="android">false</target>
     </deployment-targets>
     <id>com.kantetsu.haiclock</id>
     <name>Haiclock</name>
@@ -13,8 +13,8 @@
     <publisher>toru</publisher>
     <url>http://kantetsu.com</url>
     <description>No description provided</description>
-    <copyright>2010 by toru</copyright>
-    <icon>default_app_logo.png</icon>
+    <copyright>(c) 2011 @toru0325</copyright>
+    <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
     <statusbar-style>default</statusbar-style>
